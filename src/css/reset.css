@@ -1,0 +1,204 @@
+:root {
+	--pad-and-gap: 0.4em;
+	--primary-color: rgb(255, 0, 0);
+	--secondary-color: #000000;
+	--color-white: #ffffff;
+	--primary-font: 'Poppins', sans-serif;
+	--grey-color: #c2c2c2;
+	--dark-grey-color: #d8d8d8;
+	--silver-color: #d2d2d2;
+}
+
+*, *::before, *::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: var(--primary-font);
+}
+
+body {
+	line-height: 1.5;
+}
+
+p, span, a {
+	color: var(--secondary-color);
+	text-decoration: none;
+}
+
+/* Preview each of these suggested resets before beginning your project styling */
+
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: bottom;
+}
+
+ul, ol, dl {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li>ul, li>ol {
+	padding-left: 2.5em;
+}
+
+input, button {
+	margin: 0;
+	font: inherit;
+}
+
+fieldset {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+legend {
+	padding: 0;
+	border: none;
+}
+
+.hidden {
+	display: none;
+}
+
+.container {
+	max-width: 1300px;
+	width: 95%;
+	margin: 0 auto;
+}
+
+/* These will make "User agent stylesheet" values (Chrome) available when needed, using classes */
+
+ul.ul {
+	list-style-type: disc;
+}
+
+ol.ol {
+	list-style-type: decimal;
+}
+
+ul.ul, ol.ol {
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 2.5em;
+}
+
+fieldset.fieldset {
+	display: block;
+	margin-inline-start: 0.125em;
+	margin-inline-end: 0.125em;
+	padding-block-start: 0.35em;
+	padding-inline-start: 0.75em;
+	padding-inline-end: 0.75em;
+	padding-block-end: 0.625em;
+	min-inline-size: min-content;
+	border-width: 0.125em;
+	border-style: groove;
+	border-color: threedface;
+	border-image: initial;
+}
+
+legend.legend {
+	display: block;
+	padding-inline-start: 0.125em;
+	padding-inline-end: 0.125em;
+	border-width: initial;
+	border-style: none;
+	border-color: initial;
+	border-image: initial;
+}
+
+.color-red {
+	color: var(--primary-color);
+}
+
+.btn-red {
+	background-color: var(--primary-color);
+	color: var(--color-white);
+	border: 0.3em solid var(--primary-color);
+}
+
+.grid {
+	display: grid;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-gap {
+	justify-content: center;
+}
+
+.grid-2 {
+	grid-template-columns: repeat(2, auto);
+}
+
+.grid-1 {
+	grid-template-columns: repeat(1, auto);
+}
+
+.grid-desktop {
+	grid-template-columns: repeat(3, auto);
+}
+
+.text-left {
+	text-align: left;
+	justify-content: start;
+}
+
+.text-center {
+	text-align: center;
+	justify-content: space-around;
+}
+
+.text-right {
+	text-align: right;
+	justify-content: flex-end;
+}
+
+.flex-even {
+	justify-content: space-evenly;
+}
+
+.hidden-on-mobile-view {
+	display: none;
+}
+
+.navigation {
+	background-color: var(--color-white);
+	z-index: 2;
+	position: relative;
+	padding: var(--pad-and-gap) 0;
+	border: 0.1em solid var(--grey-color);
+	margin-top: 0.3em;
+}
+
+.pad-3 {
+	padding: var(--pad-and-gap) 0;
+}
+
+.submenu {
+	padding-left: 0;
+}
+
+.float-right {
+	float: right;
+}
+
+.transparent-background {
+	background: transparent;
+	border: none;
+}
+
+.fa-star, .fa-star-half-alt {
+	color: var(--primary-color);
+}

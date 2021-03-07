@@ -1,0 +1,445 @@
+/* Note there a few "reset" styles given in reset.css. Review those before you begin */
+
+.page-header {
+  height: 3em;
+}
+
+.page-header .icons ul li {
+  padding: var(--pad-and-gap) 0.5em;
+}
+
+.page-header .icons ul li .fa-icon {
+  font-size: 1.2em;
+}
+
+.page-header .logo img {
+  height: 3em;
+}
+
+.legal a {
+  font-size: 0.9em;
+}
+
+.submenu-webview {
+  background-color: var(--color-white);
+  padding-top: var(--pad-and-gap);
+}
+
+.hero-header {
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.1)) , url(../img/hero-image.jpg) center center;
+    background-size: cover;
+    position: relative;
+    justify-content: left;
+    text-align: left;
+    min-height: 50vh;
+}
+
+.pad-left-3 {
+  padding-left: 0.3em;
+}
+
+.mar-top-10 {
+  margin-top: 1em;
+}
+
+.pad-top-20 {
+  padding-top: 2em;
+}
+
+.width-100 {
+  width: 10em;
+}
+
+.sort-by {
+  background-color: var(--color-white);
+  margin-top: 1.4em;
+}
+
+.shop-submenu-options {
+  z-index: 20;
+  position: relative;
+  background-color: var(--color-white);
+  padding: var(--pad-and-gap) 0;
+  margin-top: var(--pad-and-gap);
+  border: 0.1em solid #d2d2d2;
+}
+
+.page-footer {
+  padding-top: 0.6em;
+}
+
+.page-footer ul, .page-footer nav {
+  justify-content: center;
+  justify-items: legacy;
+  place-content: flex-end;
+}
+
+.heading-header {
+  padding-top: 3em;
+}
+
+.copyright {
+  margin-top: 0;
+  padding-bottom: var(--pad-and-gap);
+}
+
+.border-box {
+  background-color: transparent;
+  border: 0.05em solid var(--secondary-color);
+  border-radius: 10em;
+  height: 2em;
+  width: 2em;
+}
+
+.active-box, .border-box:hover {
+  background-color: var(--secondary-color);
+  color: var(--color-white);
+}
+
+.color-variant-fields input,
+.size-fields input
+{
+  display: none;
+}
+
+.color-variant-fields li,
+.size-fields li
+{
+  display: inline;
+}
+
+
+.color-variant-fields label,
+.size-fields label
+{
+  background: var(--color-white);
+  color: black;
+  border: 0.1em solid var(--secondary-color);
+  cursor: pointer;
+  border-radius: 0.8em;
+  padding: 0.2em 0.4em;
+}
+
+ul.color-variant-fields li input[type=radio]:checked+label,
+ul.size-fields li input[type=radio]:checked+label
+{
+  background-color: var(--secondary-color);
+  color: var(--color-white);
+  transition: all .2s;
+}
+
+
+.cart-button {
+  background-color: var(--color-white);
+  border: 1px solid #cccccc;
+  padding: var(--pad-and-gap);
+  border-radius: var(--pad-and-gap);
+  width: 100%;
+  outline: 0;
+}
+
+.cart-button:not(.disabled):hover {
+  background-color: var(--secondary-color);
+  color: var(--color-white);
+}
+
+.product-footer {
+  padding: 1em 0;
+  text-align: center;
+}
+
+.grey-background {
+  background-color: #f1efef
+}
+
+.pad-top-4 {
+  padding-top: var(--pad-and-gap);
+}
+
+.font-bold {
+  font-weight: 600;
+}
+
+del {
+  color: var(--primary-color);
+}
+
+.page-footer h5 {
+  margin-bottom: 0.1em;
+}
+
+.pages li {
+  padding: 0.1em;
+  width: 2em;
+  border: 1px solid black;
+  border-radius: 5em;
+  margin: 0 var(--pad-and-gap);
+  margin-bottom: 1em;
+}
+
+.pages li.active-page {
+  background-color: var(--secondary-color);
+}
+
+.pages li.active-page a {
+  color: var(--color-white);
+  font-weight: bold;
+}
+
+.search-text {
+  border: 0;
+  border-bottom: 1px solid var(--secondary-color);
+  width: 85%;
+  padding-right: 1.7em;
+}
+
+.menu, .submenu {
+  text-align: left;
+}
+
+.border-bottom {
+  border-bottom: 0.1em solid #cccccc;
+}
+
+.shop-arrow {
+  font-size: 0.5em;
+  position: relative;
+  bottom: 0.2em;
+  padding-left: 0.5em;
+}
+
+.search-icon {
+  position: relative;
+  right: 1em;
+}
+
+.disabled {
+  cursor: text;
+  color: #f1efef;
+}
+
+.filter-button {
+  padding: 0.6em;
+  border-radius: 0;
+  background-color: black;
+  color: var(--color-white);
+  margin: 0.6em 0;
+}
+
+.clear-both {
+  clear: both;
+  width: 100%;
+}
+
+.font-normal {
+  font-weight: 300;
+}
+
+.filter-button:hover {
+  background-color: var(--color-white);
+  color: black;
+}
+
+.filter-options {
+  padding: var(--pad-and-gap);
+  border: 0.1em solid #d2d2d2;
+}
+
+.social li {
+  padding: 0 0.5em;
+}
+
+.extra-content {
+  color: var(--primary-color);
+}
+
+.radio-group input[type=radio] {
+  position: absolute;
+  visibility: hidden;
+  display: none;
+}
+
+.radio-group label {
+  color: #332f35;
+  display: inline-block;
+  cursor: pointer;
+  padding: 5px 15px;
+}
+
+.radio-group input[type=radio]:checked+label {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.radio-group label+input[type=radio]+label {
+  border-left: solid 3px var(--dark-grey-color);
+}
+
+.radio-group {
+  border: solid 3px var(--dark-grey-color);
+  display: inline-block;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.verified-image {
+  height: 2em;
+}
+.verified-image-filter {
+  height: 1.5em;
+}
+
+.fa-foursquare {
+  color: red;
+  padding-right: var(--pad-and-gap);
+}
+
+ul.ks-cboxtags {
+  list-style: none;
+}
+
+ul.ks-cboxtags li {
+  display: inline;
+}
+
+ul.ks-cboxtags li label {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, .9);
+  border: 2px solid var(--dark-grey-color);
+  color: var(--secondary-color);
+  border-radius: 25px;
+  white-space: nowrap;
+  margin: 3px 0px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: all .2s;
+}
+
+ul.ks-cboxtags li label {
+  padding: 1px 12px;
+  cursor: pointer;
+}
+
+ul.ks-cboxtags li label::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 12px;
+  padding: 2px 6px 2px 2px;
+  content: "\f067";
+  transition: transform .3s ease-in-out;
+}
+
+ul.ks-cboxtags li input[type="checkbox"]:checked+label::before {
+  content: "\f00c";
+  transform: rotate(-360deg);
+  transition: transform .3s ease-in-out;
+}
+
+ul.ks-cboxtags li input[type="checkbox"]:checked+label {
+  border: 2px solid var(--secondary-color);
+  background-color: var(--secondary-color);
+  color: var(--color-white);
+  transition: all .2s;
+}
+
+ul.ks-cboxtags li input[type="checkbox"] {
+  display: absolute;
+}
+
+ul.ks-cboxtags li input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+}
+
+ul.ks-cboxtags li input[type="checkbox"]:focus+label {
+  border: 2px solid var(--secondary-color);
+}
+
+.disabled-page {
+  background-color: var(--silver-color);
+  border: 0.11em solid var(--silver-color) !important;
+}
+
+.disabled-page a {
+  color: var(--color-white);
+  cursor: text;
+}
+
+.pad-top-10 {
+  padding-top: 1em;
+}
+
+.pad-bot-4 {
+  padding-bottom: var(--pad-and-gap);
+}
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 3em;
+  height: 1.5em;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 1em;
+  width: 1em;
+  left: 4px;
+  bottom: 4px;
+  background-color: var(--color-white);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: var(--primary-color);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px var(--primary-color);
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(1.6em);
+  -ms-transform: translateX(1.6em);
+  transform: translateX(1.6em);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 2em;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
