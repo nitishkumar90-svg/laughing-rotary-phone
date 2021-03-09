@@ -69,12 +69,8 @@ const App = () => {
 			description: `1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci dolorem voluptates blanditiis repellat totam aut repellendus maiores laudantium, facilis pariat`,
 			isFloneAssured: false,
 			Rating: [1, 1, 1, 1, 0.5],
-			colors: [
-				{ id: 1, name: `Red` }, { id: 2, name: `White` }, { id: 3, name: `Blue` }
-			],
-			sizes: [
-				{ id: 1, name: `S` }, { id: 2, name: `XL` }, { id: 3, name: `XXL` }
-			],
+			colors: [],
+			sizes: [],
 			imageURL: `7.jpg`
 		}
 	]
