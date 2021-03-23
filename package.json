@@ -6,7 +6,6 @@
   "scripts": {
     "start": "webpack serve --mode development --history-api-fallback",
     "build": "webpack --mode production",
-    "predeploy": "yarn run build",
     "deploy": "git reset && git add -f dist && git commit -m \"deploy\" && git subtree split --prefix dist -b gh-pages && git push -f origin gh-pages:gh-pages && git branch -D gh-pages && git reset --mixed HEAD~1"
   },
   "keywords": [],
