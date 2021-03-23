@@ -1,8 +1,8 @@
 import React from "react";
+import { BrowserRouter, Route } from "react-router-dom";
 import "../css/App.css";
 import Footer from "./Shared/Footer";
 import Header from "./Shared/Header";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
 import "../css/reset.css";
 import "../css/style.css";
 import "../css/responsive.css";
