@@ -88,20 +88,16 @@ const App = () => {
     },
   ];
   return (
-    <React.StrictMode>
-      <BrowserRouter>
-        <Header />
-        <Switch>
-          <Route exact path="/products">
-            <Main products={products} />
-          </Route>
-          <Route path="/products/:id/:search">
-            <ProductPage />
-          </Route>
-        </Switch>
-        <Footer />
-      </BrowserRouter>
-    </React.StrictMode>
+    <BrowserRouter>
+      <Header />
+      <Route exact path="/products">
+        <Main products={products} />
+      </Route>
+      <Route path="/products/:id/:search">
+        <ProductPage />
+      </Route>
+      <Footer />
+    </BrowserRouter>
   );
 };
 
