@@ -40,6 +40,6 @@ module.exports = {
 		}
 	},
     output: {
-        publicPath : `./`
+        publicPath : path.resolve(__dirname, 'dist/assets')
     }
 }

@@ -5,7 +5,7 @@ const Product = ({ values }) => {
     const colors = values.colors.map((elem, index) => <li><input key={elem.id} type="radio" checked name="colour" id={`Color_${elem.name}_${values.id}`} value={elem.name} /> <label htmlFor={`Color_${elem.name}_${values.id}`}>{elem.name}</label></li>)
     const sizes = values.sizes.map((elem, index) => <li><input key={elem.id} type="radio" checked name="size" id={`Size_${elem.name}_${values.id}`} value={elem.name} /> <label htmlFor={`Size_${elem.name}_${values.id}`}>{elem.name}</label></li>)
     
-    const productImage = require(`../../img/Products/${values.imageURL}`).default
+    const productImage = require(`../../../img/Products/${values.imageURL}`).default
     return (
         <article className="product">
             <header>
