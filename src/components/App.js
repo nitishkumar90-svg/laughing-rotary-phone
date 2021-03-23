@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import "../css/App.css";
 import Footer from "./Shared/Footer";
 import Header from "./Shared/Header";
@@ -88,16 +88,20 @@ const App = () => {
     },
   ];
   return (
-    <BrowserRouter>
-      <Header />
-      <Route exact path="/products">
-        <Main products={products} />
-      </Route>
-      <Route path="/products/:id/:search">
-        <ProductPage />
-      </Route>
-      <Footer />
-    </BrowserRouter>
+    <React.StrictMode>
+      <BrowserRouter>
+        <Switch>
+          <Header />
+          <Route exact path="/products">
+            <Main products={products} />
+          </Route>
+          <Route path="/products/:id/:search">
+            <ProductPage />
+          </Route>
+          <Footer />
+        </Switch>
+      </BrowserRouter>
+    </React.StrictMode>
   );
 };
 
