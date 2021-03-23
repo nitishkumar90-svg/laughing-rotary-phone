@@ -7,7 +7,7 @@ const Header = () => {
         <header className="page-header pad-top-4">
             <article className="container">
                 <article className="grid grid-2">
-                    <a href="index.html" className="logo text-left"><img src={imageLogo} alt="Flont." /></a>
+                    <Link to="/" className="logo text-left"><img src={imageLogo} alt="Flont." /></Link>
                     <article className="text-right icons">
                         <ul className="your-products flex text-right">
                             <li className="hidden-on-mobile-view show-on-webview"><Link className="font-bold" id="shop-submenu" to="/products">Shop<i

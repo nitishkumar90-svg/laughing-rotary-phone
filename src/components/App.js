@@ -8,6 +8,7 @@ import "../css/style.css";
 import "../css/responsive.css";
 import Main from "./Homepage/Main";
 import ProductPage from "./Homepage/Products/ProductPage";
+import Page404 from "./Shared/Page404";
 import Homepage from "./Homepage/Homepage";
 
 const App = () => {
@@ -99,8 +100,8 @@ const App = () => {
         <Route path="/products">
           <Main products={products} />
         </Route>
-        <Route path="/products/:id/:search">
-          <ProductPage />
+        <Route path="*">
+          <Page404 />
         </Route>
       </Switch>
     </BrowserRouter>
