@@ -90,10 +90,11 @@ const App = () => {
   ];
   return (
     <BrowserRouter>
-      <Header />
       <Switch>
         <Route exact path="/">
+          <Header />
           <Homepage />
+          <Footer />
         </Route>
         <Route path="/products">
           <Main products={products} />
@@ -102,7 +103,6 @@ const App = () => {
           <ProductPage />
         </Route>
       </Switch>
-      <Footer />
     </BrowserRouter>
   );
 };
