@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 const Header = () => {
     const imageLogo = require('../../img/logo.png').default
@@ -9,14 +10,14 @@ const Header = () => {
                     <a href="index.html" className="logo text-left"><img src={imageLogo} alt="Flont." /></a>
                     <article className="text-right icons">
                         <ul className="your-products flex text-right">
-                            <li className="hidden-on-mobile-view show-on-webview"><a className="font-bold" id="shop-submenu" href="#">Shop<i
-                                className="fas fa-chevron-down shop-arrow"></i></a>
+                            <li className="hidden-on-mobile-view show-on-webview"><Link className="font-bold" id="shop-submenu" to="/products">Shop<i
+                                className="fas fa-chevron-down shop-arrow"></i></Link>
                                 <ul className="hidden submenu shop-submenu-options" id="shop-submenu-options">
                                     <li><a href="#">Top Wear</a></li>
                                     <li><a href="#">Bottom Wear</a></li>
                                 </ul>
                             </li>
-                            <li className="hidden-on-mobile-view show-on-webview"><a className="font-bold" href="#">About</a></li>
+                            <li className="hidden-on-mobile-view show-on-webview"><Link className="font-bold" to="/about">About</Link></li>
                             <li className="hidden-on-mobile-view show-on-webview"><a className="font-bold" href="#">Contact</a></li>
                             <li className="hidden-on-mobile-view show-on-webview"><input className="search-text" type="text"
                                 placeholder="Search..." /><i className="fas fa-search search-icon" ></i></li>
@@ -34,7 +35,7 @@ const Header = () => {
                                         <li><a href="#">Bottom Wear</a></li>
                                     </ul>
                                 </li>
-                                <li><a className="font-bold" href="#">About</a></li>
+                                <li><Link className="font-bold" to="/about">About</Link></li>
                                 <li><a className="font-bold" href="#">Contact</a></li>
                             </ul>
                         </nav>
