@@ -2,11 +2,12 @@ import React from "react";
 import "../css/App.css";
 import Footer from "./Shared/Footer";
 import Header from "./Shared/Header";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import "../css/reset.css";
 import "../css/style.css";
 import "../css/responsive.css";
 import Main from "./Homepage/Main";
+import ProductPage from "./Homepage/Products/ProductPage";
 
 const App = () => {
   const products = [
@@ -87,13 +88,20 @@ const App = () => {
     },
   ];
   return (
-    <BrowserRouter>
-      <Header />
-      <Route exact path="/products">
-        <Main products={products} />
-      </Route>
-      <Footer />
-    </BrowserRouter>
+    <React.StrictMode>
+      <BrowserRouter>
+        <Header />
+        <Switch>
+          <Route exact path="/products">
+            <Main products={products} />
+          </Route>
+          <Route path="/products/:id/:search">
+            <ProductPage />
+          </Route>
+        </Switch>
+        <Footer />
+      </BrowserRouter>
+    </React.StrictMode>
   );
 };
 
