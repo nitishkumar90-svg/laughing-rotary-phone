@@ -8,6 +8,7 @@ import "../css/style.css";
 import "../css/responsive.css";
 import Main from "./Homepage/Main";
 import ProductPage from "./Homepage/Products/ProductPage";
+import Homepage from "./Homepage/Homepage";
 
 const App = () => {
   const products = [
@@ -91,7 +92,10 @@ const App = () => {
     <BrowserRouter>
       <Header />
       <Switch>
-        <Route exact path="/products">
+        <Route exact path="/">
+          <Homepage />
+        </Route>
+        <Route path="/products">
           <Main products={products} />
         </Route>
         <Route path="/products/:id/:search">
