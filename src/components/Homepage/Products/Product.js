@@ -4,10 +4,12 @@ const Product = ({ values }) => {
     const ratings = values.Rating.map((elem) => <i key={elem.id} className={(elem === 1) ? "fas fa-star" : (elem === 0) ? "hidden" : "fas fa-star-half-alt"}></i>)
     const colors = values.colors.map((elem, index) => <li><input key={elem.id} type="radio" checked name="colour" id={`Color_${elem.name}_${values.id}`} value={elem.name} /> <label htmlFor={`Color_${elem.name}_${values.id}`}>{elem.name}</label></li>)
     const sizes = values.sizes.map((elem, index) => <li><input key={elem.id} type="radio" checked name="size" id={`Size_${elem.name}_${values.id}`} value={elem.name} /> <label htmlFor={`Size_${elem.name}_${values.id}`}>{elem.name}</label></li>)
+    
+    const productImage = require(`../../img/Products/${values.imageURL}`).default
     return (
         <article className="product">
             <header>
-                <img src={require(`../../../img/Products/${values.imageURL}`).default} alt="Product Image" />
+                <img src={productImage} alt="Product Image" />
                 <h3 className="pad-top-4">{values.name}<span className="float-right"><i className={values.isLiked ? "fas fa-heart color-red" : "far fa-heart"}></i></span></h3>
                 <data className="pad-top-4" value="39"><del>${values.actualPrice}</del> <ins>${values.sellingPrice}</ins></data>
                 <p className="pad-top-4">{values.description}</p>
