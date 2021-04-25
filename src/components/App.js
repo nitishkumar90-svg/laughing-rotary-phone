@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { Switch, Route } from 'react-router-dom';
 import "../css/App.css";
 import Footer from "./Shared/Footer";
 import Header from "./Shared/Header";
@@ -18,21 +18,19 @@ const App = () => {
 
   const { filteredProducts } = useContext(mainProducts);
   return (
-    <BrowserRouter>
-      <Switch>
-        <Route exact path="/">
-          <Header />
-          <Homepage />
-          <Footer />
-        </Route>
-        <Route path="/products">
-          <Main products={filteredProducts} />
-        </Route>
-        <Route path="*">
-          <Page404 />
-        </Route>
-      </Switch>
-    </BrowserRouter>
+    <Switch>
+
+      <Route exact path="/" component={Homepage} />
+
+      <Route exact path="/products">
+        <Main products={filteredProducts} />
+      </Route>
+
+      <Route path="*">
+        <Page404 />
+      </Route>
+
+    </Switch>
   );
 };
 
