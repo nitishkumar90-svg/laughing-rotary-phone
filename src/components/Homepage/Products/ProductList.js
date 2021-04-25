@@ -2,7 +2,7 @@ import React from 'react'
 import Product from './Product'
 
 const ProductList = ({ products }) => {
-    const productList = products.map((elem) => <Product key={elem.id} values={elem} />)
+    const productList = products.map((elem, index) => <Product key={index} values={elem} />)
     return (
         <header className="grid grid-1 grid-webview-products">
             {productList}

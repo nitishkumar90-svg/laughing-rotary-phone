@@ -338,29 +338,29 @@ ul.ks-cboxtags li label::before {
   transition: transform .3s ease-in-out;
 }
 
-ul.ks-cboxtags li input[type="checkbox"]:checked+label::before {
+ul.ks-cboxtags li input:checked+label::before {
   content: "\f00c";
   transform: rotate(-360deg);
   transition: transform .3s ease-in-out;
 }
 
-ul.ks-cboxtags li input[type="checkbox"]:checked+label {
+ul.ks-cboxtags li input:checked+label {
   border: 2px solid var(--secondary-color);
   background-color: var(--secondary-color);
   color: var(--color-white);
   transition: all .2s;
 }
 
-ul.ks-cboxtags li input[type="checkbox"] {
+ul.ks-cboxtags li input {
   display: absolute;
 }
 
-ul.ks-cboxtags li input[type="checkbox"] {
+ul.ks-cboxtags li input {
   position: absolute;
   opacity: 0;
 }
 
-ul.ks-cboxtags li input[type="checkbox"]:focus+label {
+ul.ks-cboxtags li input:focus+label {
   border: 2px solid var(--secondary-color);
 }
 
