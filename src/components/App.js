@@ -23,7 +23,9 @@ const App = () => {
       <Route exact path="/" component={Homepage} />
 
       <Route exact path="/products">
+        <Header />
         <Main products={filteredProducts} />
+        <Footer />
       </Route>
 
       <Route path="*">
