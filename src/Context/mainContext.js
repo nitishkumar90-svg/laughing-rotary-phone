@@ -23,7 +23,8 @@ const MainContext = ({ children }) => {
 
     const [filters, setFilters] = useState({
         query: 'all',
-        isFloneAssured: 'all'
+        isFloneAssured: 'all',
+        reset: 'false'
     });
 
     //This is to filter data from main product list
@@ -45,7 +46,8 @@ const MainContext = ({ children }) => {
         if (filters.query !== 'all') {
             filteredData = filteredData.filter((prod) => prod.name.toLowerCase().includes(filters.query.toLowerCase().trim()))
         }
-
+        if (filters.reset === 'true')
+            filteredData = products;
 
         // Setting the filteredData state as new filtered data.
         setFilteredProducts(filteredData);

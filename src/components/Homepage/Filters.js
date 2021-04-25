@@ -18,6 +18,13 @@ const Filters = () => {
         });
     }
 
+    const resetValues = (event) => {
+        setFilters({
+            ...filters,
+            reset: 'true'
+        });
+    }
+
     const verifiedImage = require('../../img/verified.png').default
 
     return (
@@ -37,6 +44,9 @@ const Filters = () => {
                 <fieldset>
                     <legend className="pad-top-10 font-bold">Filter By</legend>
                     <input type="text" onKeyUp={handleQuery} />
+                </fieldset>
+                <fieldset>
+                    <button className="cart-button top-width-5" onChange={resetValues}>Reset</button>
                 </fieldset>
             </article>
         </form>
