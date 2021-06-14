@@ -30,6 +30,7 @@ const App = () => {
 
       <Route path="*">
         <Page404 />
+        <Footer />
       </Route>
 
     </Switch>
