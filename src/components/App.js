@@ -27,7 +27,9 @@ const App = () => {
       </Route>
 
       <Route path="*">
+        <Header />
         <Page404 />
+        <Footer />
       </Route>
 
     </Switch>

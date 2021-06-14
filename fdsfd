@@ -1,0 +1,192 @@
+[33mcommit 1f7d72bf4c518621d4b2177b13753def972bdbe1[m[33m ([m[1;36mHEAD -> [m[1;32md22[m[33m, [m[1;31morigin/d22[m[33m, [m[1;32mdevelopment[m[33m)[m
+Merge: c3df0bf d3b87b0
+Author: Nitish Kumar <70220240+nitishkumar90-svg@users.noreply.github.com>
+Date:   Thu Jun 10 15:47:20 2021 -0400
+
+    Merge branch 'Issue-112-link-to-dashboard' into development
+
+[33mcommit d3b87b0521c4860838dbb662b6ebd5be7073b5b3[m[33m ([m[1;31morigin/Issue-112-link-to-dashboard[m[33m, [m[1;32mIssue-112-link-to-dashboard[m[33m)[m
+Author: Nitish Kumar <70220240+nitishkumar90-svg@users.noreply.github.com>
+Date:   Thu Jun 10 15:46:51 2021 -0400
+
+    Your message
+
+[33mcommit c3df0bfdd3d2f0a1a91fe9462f1f79e04224cebc[m
+Author: Nitish Kumar <70220240+nitishkumar90-svg@users.noreply.github.com>
+Date:   Sun Apr 25 10:22:38 2021 -0400
+
+    [SM] Updated Header and Footer
+
+[33mcommit 9dd6f1b274951214e32dce9f658b50a1156f2384[m
+Author: Nitish Kumar <70220240+nitishkumar90-svg@users.noreply.github.com>
+Date:   Sat Apr 24 23:18:26 2021 -0400
+
+    [SM] Product Images Added
+
+[33mcommit 2cdcee7bb98e2f1a17237bcb0db842b4495ce6f6[m
+Author: Nitish Kumar <70220240+nitishkumar90-svg@users.noreply.github.com>
+Date:   Sat Apr 24 20:54:24 2021 -0400
+
+    [SM] Main Changes
+
+[33mcommit 19b54ff88e71070bb1d5421066bb0d6d35f76adb[m
+Author: Nitish Kumar <70220240+nitishkumar90-svg@users.noreply.github.com>
+Date:   Sat Apr 24 20:48:14 2021 -0400
+
+    [SM] Updated Changes
+
+[33mcommit 928e3695ade3b7a2dbd6d66df6bea545be78b74e[m
+Author: Nitish Kumar <70220240+nitishkumar90-svg@users.noreply.github.com>
+Date:   Sat Apr 24 20:46:00 2021 -0400
+
+    [SM] Updated Changes
+
+[33mcommit 91174445c477deaa524a404243eb435c228f4cc6[m
+Author: Nitish Kumar <70220240+nitishkumar90-svg@users.noreply.github.com>
+Date:   Sat Apr 24 20:20:20 2021 -0400
+
+    [SM] My New Changes
+
+[33mcommit 68f057a9aacfabb3bc2da2769bd5db5483066eb9[m[33m ([m[1;31morigin/production[m[33m)[m
+Author: Nitish Kumar <70220240+nitishkumar90-svg@users.noreply.github.com>
+Date:   Wed Mar 24 03:41:26 2021 +0530
+
+    [SM] NEW CHANGE
+
+[33mcommit c91e4f1024e45856e44a5c7b8e19a987034d3207[m
+Author: Nitish Kumar <70220240+nitishkumar90-svg@users.noreply.github.com>
+Date:   Wed Mar 24 03:40:36 2021 +0530
+
+    [sm] NEW CHANGES
+
+[33mcommit 4c3816a5f955b703b4a8d361233447bfd445d0ec[m
+Author: Nitish Kumar <70220240+nitishkumar90-svg@users.noreply.github.com>
+Date:   Wed Mar 24 03:20:48 2021 +0530
+
+    [SM] 12
+
+[33mcommit 4e96ef80697ab348f79a444d179be0282b64698a[m
+Author: Nitish Kumar <70220240+nitishkumar90-svg@users.noreply.github.com>
+Date:   Wed Mar 24 03:16:48 2021 +0530
+
+    [SM] Header
+
+[33mcommit af40eeb5985ff858dbbcbcc0f1aee236ddeea1ff[m
+Author: Nitish Kumar <70220240+nitishkumar90-svg@users.noreply.github.com>
+Date:   Wed Mar 24 03:07:51 2021 +0530
+
+    [SM] Lat Changes
+
+[33mcommit 70ef37602058ed591a0193f7ae4758753c4bc8f6[m
+Author: Nitish Kumar <70220240+nitishkumar90-svg@users.noreply.github.com>
+Date:   Wed Mar 24 03:01:23 2021 +0530
+
+    [SM] New Changes
+
+[33mcommit 3850f7a06000f29abb46ce74edbd924cd96097e1[m
+Author: Nitish Kumar <70220240+nitishkumar90-svg@users.noreply.github.com>
+Date:   Wed Mar 24 02:54:41 2021 +0530
+
+    [SOURCE MAINTENANCE] Code Updated
+
+[33mcommit d5f35179077f77bc27eb83be56c180c0151c211a[m
+Author: Nitish Kumar <70220240+nitishkumar90-svg@users.noreply.github.com>
+Date:   Wed Mar 24 02:46:24 2021 +0530
+
+    [SM] Auto
+
+[33mcommit 0b4343d1390fbc8b0c9295a4d3bd9235b7991c5b[m
+Author: Nitish Kumar <70220240+nitishkumar90-svg@users.noreply.github.com>
+Date:   Wed Mar 24 02:44:25 2021 +0530
+
+    [SM] test
+
+[33mcommit 7b40d7bbf17b94782ad01464cf54d1ae3bbb2d40[m
+Author: Nitish Kumar <70220240+nitishkumar90-svg@users.noreply.github.com>
+Date:   Wed Mar 24 02:37:34 2021 +0530
+
+    [Test]
+
+[33mcommit 4fc38d707bae42f032636d99ab252e3cec771bfb[m
+Author: Nitish Kumar <70220240+nitishkumar90-svg@users.noreply.github.com>
+Date:   Wed Mar 24 02:35:23 2021 +0530
+
+    [SOURCE MAINTENANCE] WebPack updated
+
+[33mcommit ad25fbf3129f4f9a066d208cd368c463050e0645[m
+Author: Nitish Kumar <70220240+nitishkumar90-svg@users.noreply.github.com>
+Date:   Wed Mar 24 02:34:57 2021 +0530
+
+    deploy
+
+[33mcommit 28dcddef1805d36f1528e25690da276e2888a26e[m
+Author: Nitish Kumar <70220240+nitishkumar90-svg@users.noreply.github.com>
+Date:   Wed Mar 24 02:31:50 2021 +0530
+
+    [SOURCE MAINTENANCE] Test New
+
+[33mcommit 5720f8005247e35fd31092b479086d4a6eccc7ad[m
+Author: Nitish Kumar <70220240+nitishkumar90-svg@users.noreply.github.com>
+Date:   Wed Mar 24 02:29:58 2021 +0530
+
+    [SOURCE MAINTENANCE] Code Checking
+
+[33mcommit 10fe3c8957b7467db1be5e177d358f9aa7459372[m
+Author: Nitish Kumar <70220240+nitishkumar90-svg@users.noreply.github.com>
+Date:   Wed Mar 24 02:22:25 2021 +0530
+
+    [SOURCE CODE] Testing
+
+[33mcommit 3e0d740ffcd832f36ff8b5fb5f0e3ccb2d21e6dc[m
+Author: Nitish Kumar <70220240+nitishkumar90-svg@users.noreply.github.com>
+Date:   Wed Mar 24 02:16:39 2021 +0530
+
+    [SOURCE MAINTENANCE] updated
+
+[33mcommit bed3e24a6ed3490740a5fd2880896878b63cd4d5[m
+Author: Nitish Kumar <70220240+nitishkumar90-svg@users.noreply.github.com>
+Date:   Wed Mar 24 02:12:31 2021 +0530
+
+    [SOURCE MAINTENANCE] Code Updated
+
+[33mcommit cb992286c67770c41b57fdaa12427f5b4b9d671e[m
+Author: Nitish Kumar <70220240+nitishkumar90-svg@users.noreply.github.com>
+Date:   Wed Mar 24 02:08:20 2021 +0530
+
+    [SOURCE MAINTENANCE] Added switch functionality
+
+[33mcommit 3f4d20831b6424562621bb9bbd4bb6baf292b029[m
+Author: Nitish Kumar <70220240+nitishkumar90-svg@users.noreply.github.com>
+Date:   Tue Mar 23 22:18:22 2021 +0530
+
+    [SOurce Maintenance] Fallback added
+
+[33mcommit bc3ec68ac5f1cd7d63a80787c0ec0c1b24a905d3[m
+Author: Nitish Kumar <70220240+nitishkumar90-svg@users.noreply.github.com>
+Date:   Tue Mar 23 22:07:48 2021 +0530
+
+    [Source Maintenance] Web PackNew Changes
+
+[33mcommit 1c05d3ae771b1426b722543877c6b4000723096f[m
+Author: Nitish Kumar <70220240+nitishkumar90-svg@users.noreply.github.com>
+Date:   Tue Mar 23 21:53:33 2021 +0530
+
+    [Source Maintenance] Route Added
+
+[33mcommit d73d184606bec0ec9383e96ddd24cb40124f5ade[m
+Author: Nitish Kumar <70220240+nitishkumar90-svg@users.noreply.github.com>
+Date:   Tue Mar 9 18:45:24 2021 +0530
+
+    [SOURCE MAINTENANCE] Updated Changes
+
+[33mcommit 43f0a887c15a052020bac68f3cc0f725611059b5[m
+Author: Nitish Kumar <70220240+nitishkumar90-svg@users.noreply.github.com>
+Date:   Sun Mar 7 23:00:27 2021 +0530
+
+    [SOURCE MAINTENANCE] Basic Setup
+
+[33mcommit 5eb75fbdcb23e8eac01bd4ba7c40d08191c3f7c1[m
+Author: Nitish Kumar <70220240+nitishkumar90-svg@users.noreply.github.com>
+Date:   Sun Mar 7 22:58:30 2021 +0530
+
+    Initial commit
